@@ -1,5 +1,5 @@
-
 Summary:	Share files using Zeroconf technology
+Summary(pl):	Wspó³dzielenie plików przy u¿yciu technologii Zeroconf
 Name:		gshare
 Version:	0.91
 Release:	0.1
@@ -13,8 +13,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 GShare creates a special folder at the user's home directory (~/Shared
-Files) and uses that as an FTP root for the built-in FTP server. These are
-shared using Zeroconf technology.
+Files) and uses that as an FTP root for the built-in FTP server. These
+are shared using Zeroconf technology.
+
+%description -l pl
+GShare tworzy specjalny folder w katalogu domowym u¿ytkownika
+(~/Shared Files) i wykorzystuje go jako g³ówny katalog FTP dla
+wbudowanego serwera FTP. Zawarto¶æ jest wspó³dzielona przy u¿yciu
+technologii Zeroconf.
 
 %prep
 %setup -q
@@ -39,7 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %dir %{_libdir}/%{name}
 %attr(755,root,root) %{_libdir}/%{name}/*.exe
-%attr(755,root,root) %{_libdir}/%{name}/*.dll
+%{_libdir}/%{name}/*.dll
 %{_datadir}/%{name}
 %{_desktopdir}/*.desktop
 %{_datadir}/dbus-1/services/*.service
