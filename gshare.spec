@@ -1,14 +1,15 @@
 Summary:	Share files using Zeroconf technology
 Summary(pl):	Wspó³dzielenie plików przy u¿yciu technologii Zeroconf
 Name:		gshare
-Version:	0.91
+Version:	0.92
 Release:	0.1
 License:	GPL v2
 Group:		Applications
 Source0:	http://yimports.com/~cpinto/downloads/gshare/%{name}-%{version}.tar.gz
-# Source0-md5:	3e922b487ffaf6bebfc5b80f1013de0d
+# Source0-md5:	e3aa2f070aa2fff29b3f1916c1f61788
 URL:		http://www.yimports.com/~cpinto/projects/gnome/gshare/
 BuildRequires:	dotnet-avahi-devel
+BuildRequires:	dotnet-dbus-sharp-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
