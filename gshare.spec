@@ -1,5 +1,5 @@
 Summary:	Share files using Zeroconf technology
-Summary(pl.UTF-8):   Współdzielenie plików przy użyciu technologii Zeroconf
+Summary(pl.UTF-8):	Współdzielenie plików przy użyciu technologii Zeroconf
 Name:		gshare
 Version:	0.92
 Release:	0.1
