@@ -1,5 +1,5 @@
 Summary:	Share files using Zeroconf technology
-Summary(pl):	Wsp�dzielenie plik�w przy u�yciu technologii Zeroconf
+Summary(pl.UTF-8):   Współdzielenie plików przy użyciu technologii Zeroconf
 Name:		gshare
 Version:	0.92
 Release:	0.1
@@ -17,10 +17,10 @@ GShare creates a special folder at the user's home directory (~/Shared
 Files) and uses that as an FTP root for the built-in FTP server. These
 are shared using Zeroconf technology.
 
-%description -l pl
-GShare tworzy specjalny folder w katalogu domowym u�ytkownika
-(~/Shared Files) i wykorzystuje go jako g��wny katalog FTP dla
-wbudowanego serwera FTP. Zawarto�� jest wsp�dzielona przy u�yciu
+%description -l pl.UTF-8
+GShare tworzy specjalny folder w katalogu domowym użytkownika
+(~/Shared Files) i wykorzystuje go jako główny katalog FTP dla
+wbudowanego serwera FTP. Zawartość jest współdzielona przy użyciu
 technologii Zeroconf.
 
 %prep
